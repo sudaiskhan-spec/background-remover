@@ -12,4 +12,4 @@ app.use(cors())
 //api routes
 app.get('/',(req,res)=>res.send("API WORKING"))
 
-app.listen(PORT, ()=> console.log("Server running on port" +PORT))``
+app.listen(PORT, ()=> console.log("Server running on port" +PORT));
